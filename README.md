@@ -7,6 +7,8 @@ Although WiringPi is preinstalled on Raspbian systems, the code for installation
 ```
 sudo apt-get install wiringpi
 ```
+For more details visit http://wiringpi.com/download-and-install/
+
 Hardware components used:
 - (1) HC-SR04 Ultrasonic Sensor
 - (1) I2C LCD1602 Module
