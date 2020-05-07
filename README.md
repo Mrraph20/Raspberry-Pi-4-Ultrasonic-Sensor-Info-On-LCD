@@ -7,7 +7,15 @@ Although WiringPi is preinstalled on Raspbian systems, the code for installation
 ```
 sudo apt-get install wiringpi
 ```
+Use:
+```
+gpio -v
+```
+to check if your version is 2.52.
+
 For more details visit http://wiringpi.com/download-and-install/
+
+To upgrade, visit http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/
 
 Hardware components used:
 - (1) HC-SR04 Ultrasonic Sensor
