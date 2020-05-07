@@ -3,7 +3,10 @@ A project that periodically displays the distance data from an ultrasonic sensor
 For GPIO pin mapping, I used WiringPi (Made by Gordon Henderson under GNU-LGPL) to simplify. Link: http://wiringpi.com/
 
 ***WiringPi Note: The author has discontinued public releases of WiringPi. The last update was 2.52 for the Raspberry Pi 4B.***
-
+Although WiringPi is preinstalled on Raspbian systems, the code for installation is as follows:
+```
+sudo apt-get install wiringpi
+```
 Hardware components used:
 - (1) HC-SR04 Ultrasonic Sensor
 - (1) I2C LCD1602 Module
