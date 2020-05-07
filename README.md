@@ -1,4 +1,4 @@
-# Displaying distance data from an ultrasonic sensor onto a LCD with the Raspberry Pi 4.
+# Displaying distance data from an ultrasonic sensor onto a LCD with C and a Raspberry Pi 4.
 A project that periodically displays the distance data from an ultrasonic sensor to a LCD as "Dist: 0.00cm." 
 For GPIO pin mapping, I used WiringPi (Made by Gordon Henderson under GNU-LGPL) to simplify. Link: http://wiringpi.com/
 
