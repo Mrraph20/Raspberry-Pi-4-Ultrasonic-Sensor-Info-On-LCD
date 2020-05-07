@@ -11,6 +11,9 @@ Hardware components used:
 - (1) Breadboard
 - Raspberry Pi 4B Rev. 1.2
 
+***Voltage Usage Note: The Raspberry Pi in this project is using the original power supply to support both 5V components. 
+It is not recommended to use anything else since the Pi may not have enough voltage left over, causing restarts of the Pi.***
+
 When compiling the code, run the following commands in terminal at the location of the file:
 ```
 sudo bash
